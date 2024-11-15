@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+body {
+    font-family: "Livvic", sans-serif;
+}
+
+:root {
+    --midnight-green: #014E56;
+    --light-clr: #F67E7E;
+    --white-clr: #fff;
+    --rapture-blue: #79C8C7;
+    --police-blue: #2C6269;
+    --deep-jungle-green: #004047;
+    --sacramento-state-green: #012F34;
+    --dark-green: #002529;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+body {
+    background: var(--midnight-green);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.links a {
+    color: var(--white-clr);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.base-btn {
+    font-family: "Livvic", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border: 2px solid var(--white-clr);
+    color: var(--white-clr);
+    padding: 9px 32px 11px 33px;
+    border-radius: 25px;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: var(--light-clr);
+    cursor: pointer;
+}
+
+.base-btn:hover {
+    cursor: pointer;
+    background-color: var(--white-clr);
+    color: var(--dark-green);
+}
+.base-btn:active{
+    opacity: 0.5;
+}
+
+.find__left {
+    max-width: 635px;
+}
+
+.find__left h1 {
+    font-family: "Livvic", sans-serif;
+    color: var(--white-clr);
+    font-size: 6.25rem;
+}
+
+.find__left h1 span {
+    color: var(--light-clr);
+}
+
+.find__right {
+    max-width: 445px;
+}
+
+.find__right p {
+    font-size: 1.125rem;
+    color: var(--white-clr);
+    line-height: 28px;
+}
+
+.find {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.find__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 100px 0 265px;
+}
+
+.find__line {
+    width: 50px;
+    height: 4px;
+    background: var(--rapture-blue);
+    border: none;
+    margin-bottom: 100px;
+}
+
+.img2 {
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+}
+
+.img1 {
+    position: absolute;
+    bottom: 0;
+    right: 165px;
+}
+
+.build {
+    background-color: var(--dark-green);
+    padding: 140px 0;
+    position: relative;
+}
+
+.build__left {
+    min-width: 445px;
+}
+
+.build__right {
+    max-width: 540px;
+}
+
+.build__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+
+.build__left h1 {
+    font-family: "Livvic", sans-serif;
+    font-size: 3rem;
+    color: var(--white-clr);
+    line-height: 48px;
+}
+
+.build__line {
+    width: 50px;
+    height: 4px;
+    background-color: var(--light-clr);
+    border: none;
+    margin-bottom: 55px;
+}
+
+.build__right {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-bottom: 32px;
+}
+
+.build__text h1 {
+    font-family: "Livvic", sans-serif;
+    color: var(--light-clr);
+    font-size: 1.125rem;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.build__text p {
+    font-family: "Livvic", sans-serif;
+    color: var(--white-clr);
+    font-size: 0.938rem;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.build__right-row {
+    flex-direction: column;
+    gap: 35px;
+}
+
+.img3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.result{
+    padding: 140px 0 150px;
+    position: relative;
+}
+.result__tekst {
+    max-width: 932px;
+    margin: 0 auto;
+}
+
+.result__tekst h1 {
+    color: var(--white-clr);
+    font-family: "Livvic", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.result__tekst h1 span {
+    color: var(--rapture-blue);
+    font-family: "Livvic", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.result__img {
+    min-width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+.result__carts {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.result__img p {
+    font-family: "Livvic", sans-serif;
+    font-size: 0.938rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--white-clr);
+    margin-bottom: 24px;
+}
+
+.result__img h1 {
+    color: var(--rapture-blue);
+    font-family: "Livvic", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+.result__img icon{
+    
+    position: absolute;
+    top: -20px;
+}
+.img4{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img5{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.ready{
+    background-color: var(--light-clr);
+    padding: 76px 0;
+    position: relative;
+}
+.img6{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.ready__tekst h1{
+    color: var(--sacramento-state-green);
+    font-family: "Livvic", sans-serif;
+font-size: 3rem;
+font-weight: 700;
+line-height: 48px;
+
+}
+.base-btns{
+    color: var(--sacramento-state-green);
+    font-family: "Livvic", sans-serif;
+font-size: 1.125rem;
+font-weight: 600;
+padding: 9px 33px 11px 32px;
+border: 2px solid var(--sacramento-state-green);
+background: transparent;
+border-radius: 25px;
+transition: 0.3s;
+}
+.ready__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+}
+.base-btns:hover{
+    background-color: var(--sacramento-state-green);
+    color: var(--white-clr);
+    cursor: pointer;
+}
+.base-btns:active{
+    opacity: 0.5;
+}
+footer{
+    background-color: var(--dark-green);
+    padding: 48px 0;
+}
+.footer__row{
+    display: flex;
+    align-items: center;
+    gap: 125px;
+}
+.footer__ikki{
+    color: var(--white-clr);
+    font-family: "Livvic", sans-serif;
+    font-size: 0.938rem;
+    font-weight: 600;
+    line-height: 25px;
+    margin-right: 250px;
+}
+.footer__icon p{
+    color: var(--white-clr);
+    font-family: "Livvic", sans-serif;
+    font-size: 0.938rem;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 50px;
+}

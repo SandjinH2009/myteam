@@ -1,0 +1,41 @@
+@media (max-width:1124px){
+    .find__row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .find__line {
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .img1{
+        position: absolute;
+        bottom: 0;
+        right: 400px;
+    }
+    .build__row{
+        flex-direction: column;
+    }
+    .build{
+        padding: 100px;
+    }
+    .build__left{
+        width: 700px;
+    }
+    .build__right{
+        width: 575px;
+
+    }
+    .img3 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .result__carts{
+        flex-direction: column;
+    }
+    .result__img{
+        width: 573px;
+    }
+}
